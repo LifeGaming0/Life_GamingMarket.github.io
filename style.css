@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap');
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Barre de navigation */
+nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #007076;
+    position: sticky;
+    top: 0;
+}
+nav hl{
+    font-size: large;
+}
+nav .ongle{
+    display: flex;
+    flex-wrap:wrap;
+}
+nav .ongle p{
+    font-size: 15px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+nav .ongle input{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+
+
+
+
+}
+/* Fin de la barre navigation */
+
+/* Header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    flex-direction: column;
+}
+header h1{
+    font-size: 50px;
+}
+header button{
+    padding: 10px 15px;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+/* Fin du Header */
+
+/* Section Principale */
+.main{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Toutes les cartes */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards .card  img{
+    width: 475px;
+}
+.cards .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: x-large;
+}
+.cards .card .price{
+    margin-top: 10px;
+}
+.cards .card .title{
+    margin-top: 10px;
+}
+/* Fin des cartes */
+/* Fin de section principale */
